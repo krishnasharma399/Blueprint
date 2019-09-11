@@ -1,0 +1,105 @@
+﻿{
+    "properties":  {
+                       "parameters":  {
+                                          "noNSGVM_adminUsername":  {
+                                                                        "type":  "string",
+                                                                        "metadata":  {
+                                                                                         "displayName":  "adminUsername (NoNSGVM)",
+                                                                                         "description":  "Username for the Virtual Machine."
+                                                                                     },
+                                                                        "defaultValue":  "SCCMAdmin",
+                                                                        "allowedValues":  [
+
+                                                                                          ]
+                                                                    },
+                                          "noNSGVM_adminPassword":  {
+                                                                        "type":  "string",
+                                                                        "metadata":  {
+                                                                                         "displayName":  "adminPassword (NoNSGVM)",
+                                                                                         "description":  "Password for the Virtual Machine."
+                                                                                     },
+                                                                        "defaultValue":  "Password1234",
+                                                                        "allowedValues":  [
+
+                                                                                          ]
+                                                                    },
+                                          "noNSGVM_dnsLabelPrefix":  {
+                                                                         "type":  "string",
+                                                                         "metadata":  {
+                                                                                          "displayName":  "dnsLabelPrefix (NoNSGVM)",
+                                                                                          "description":  "Unique DNS Name for the Public IP used to access the Virtual Machine."
+                                                                                      },
+                                                                         "allowedValues":  [
+
+                                                                                           ]
+                                                                     },
+                                          "noNSGVM_windowsOSVersion":  {
+                                                                           "type":  "string",
+                                                                           "metadata":  {
+                                                                                            "displayName":  "windowsOSVersion (NoNSGVM)",
+                                                                                            "description":  "The Windows version for the VM. This will pick a fully patched image of this given Windows version."
+                                                                                        },
+                                                                           "defaultValue":  "2016-Datacenter",
+                                                                           "allowedValues":  [
+                                                                                                 "2008-R2-SP1",
+                                                                                                 "2012-Datacenter",
+                                                                                                 "2012-R2-Datacenter",
+                                                                                                 "2016-Nano-Server",
+                                                                                                 "2016-Datacenter-with-Containers",
+                                                                                                 "2016-Datacenter",
+                                                                                                 "2019-Datacenter"
+                                                                                             ]
+                                                                       },
+                                          "noNSGVM_location":  {
+                                                                   "type":  "string",
+                                                                   "metadata":  {
+                                                                                    "displayName":  "location (NoNSGVM)",
+                                                                                    "description":  "Location for all resources."
+                                                                                },
+                                                                   "defaultValue":  "AustraliaSouthEast",
+                                                                   "allowedValues":  [
+
+                                                                                     ]
+                                                               },
+                                          "theNSGsrulesforwebapplicationsonIaaSshouldbehardened_effect":  {
+                                                                                                              "type":  "string",
+                                                                                                              "metadata":  {
+                                                                                                                               "displayName":  "Effect (Policy: The NSGs rules for web applications on IaaS should be hardened)"
+                                                                                                                           },
+                                                                                                              "defaultValue":  "AuditIfNotExists",
+                                                                                                              "allowedValues":  [
+                                                                                                                                    "AuditIfNotExists",
+                                                                                                                                    "Disabled"
+                                                                                                                                ]
+                                                                                                          },
+                                          "emailnotificationtosubscriptionownerforhighseverityalertsshouldbeenabled_effect":  {
+                                                                                                                                  "type":  "string",
+                                                                                                                                  "metadata":  {
+                                                                                                                                                   "displayName":  "Effect (Policy: Email notification to subscription owner for high severity alerts should be enabled)"
+                                                                                                                                               },
+                                                                                                                                  "defaultValue":  "AuditIfNotExists",
+                                                                                                                                  "allowedValues":  [
+                                                                                                                                                        "AuditIfNotExists",
+                                                                                                                                                        "Disabled"
+                                                                                                                                                    ]
+                                                                                                                              }
+                                      },
+                       "resourceGroups":  {
+                                              "ResourceGroup":  {
+                                                                    "metadata":  {
+                                                                                     "displayName":  "NoNSGVM"
+                                                                                 },
+                                                                    "dependsOn":  [
+
+                                                                                  ]
+                                                                }
+                                          },
+                       "targetScope":  "subscription",
+                       "status":  {
+                                      "timeCreated":  "2019-09-09T00:24:02+00:00",
+                                      "lastModified":  "2019-09-09T00:24:02.3426763+00:00"
+                                  },
+                       "description":  "NoNSGVM"
+                   },
+    "type":  "Microsoft.Blueprint/blueprints"
+}
