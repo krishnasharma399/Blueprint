@@ -3,12 +3,9 @@
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
         "resourceGroups": {
             
-            }
         },
         "parameters": {
-          
-          
-            
+         
         }
     },
     "identity": {
