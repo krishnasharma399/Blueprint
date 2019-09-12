@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
+        "resourceGroups": {
+            "storageRG": {
+                "name": "StorageAccount",
+                "location": "eastus2"
+            }
+        },
+        "parameters": {
+            "storageAccountType": {
+                "value": "Standard_GRS"
+            },
+            "tagName": {
+                "value": "CostCenter"
+            },
+            "tagValue": {
+                "value": "ContosoIT"
+            }
+            
+        }
+    },
+    "identity": {
+        "type": "systemAssigned"
+    },
+    "location": "westus"
+}
