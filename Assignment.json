@@ -8,15 +8,7 @@
             }
         },
         "parameters": {
-            "storageAccountType": {
-                "value": "Standard_GRS"
-            },
-            "tagName": {
-                "value": "CostCenter"
-            },
-            "tagValue": {
-                "value": "ContosoIT"
-            },
+          
             "owners": {
                 "value": [
                     "ee91a958-fb15-4f0e-9d21-37902275489e",
