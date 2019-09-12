@@ -1,7 +1,9 @@
 {
     "properties": {
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
-        
+        "resourceGroups": {
+            "location": "Southeast Asia"
+        },
         "parameters": {
             "rgLocation": {
                 "type": "string",
