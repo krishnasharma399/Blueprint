@@ -16,6 +16,12 @@
             },
             "tagValue": {
                 "value": "ContosoIT"
+            },
+            "owners": {
+                "value": [
+                    "ee91a958-fb15-4f0e-9d21-37902275489e",
+                    "316deb5f-7187-4512-9dd4-21e7798b0ef9"
+                ]
             }
             
         }
