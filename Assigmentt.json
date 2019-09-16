@@ -3,10 +3,9 @@
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
        
         "resourceGroups": {
-                       "Myrgkris": {
-                "metadata": {
-                    "description": "Resource Group that follows the standard sequence ordering"
-                }
+                       "NoNSGVM": {
+                        "name": "krisrg",
+                        "location": "eastus2"
             }
         },
         "parameters": {
