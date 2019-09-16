@@ -1,21 +1,22 @@
 {
     "properties": {
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
-      
+        "resourceGroups": {
+            "storageRG": {
+                "name": "StorageAccount",
+                "location": "eastus2"
+            }
+        },
         "parameters": {
          
+            "resourceGroups": {
+                "storageRG": {
+                    "description": "Contains the resource template deployment and a role assignment."
+                }
+            }
         }
     },
-    "resources": [
-        {
-            "type": "Microsoft.Resources/resourceGroups",
-            "apiVersion": "2018-05-01",
-            "location": "westus",
-            "name": "mytestRG",
-            "properties": {}
-        }
-    ],
-
+ 
     "identity": {
         "type": "systemAssigned"
     },
