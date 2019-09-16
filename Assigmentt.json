@@ -1,4 +1,5 @@
 {
+{
     "properties": {
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
         "resourceGroups": {
@@ -9,11 +10,7 @@
         },
         "parameters": {
          
-            "resourceGroups": {
-                "storageRG": {
-                    "description": "Contains the resource template deployment and a role assignment."
-                }
-            }
+           
         }
     },
  
