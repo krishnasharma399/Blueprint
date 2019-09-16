@@ -6,6 +6,16 @@
          
         }
     },
+    "resources": [
+        {
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2018-05-01",
+            "location": "westus",
+            "name": "mytestRG",
+            "properties": {}
+        }
+    ],
+
     "identity": {
         "type": "systemAssigned"
     },
