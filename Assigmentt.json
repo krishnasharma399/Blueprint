@@ -2,7 +2,13 @@
     "properties": {
         "blueprintId": "/providers/Microsoft.Management/managementGroups/{KrishanTestSubs}/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
        
-      
+        "resourceGroups": {
+                       "standard-rg": {
+                "metadata": {
+                    "description": "Resource Group that follows the standard sequence ordering"
+                }
+            }
+        },
         "parameters": {
          
            
