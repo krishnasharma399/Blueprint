@@ -1,0 +1,21 @@
+{
+    "properties": {
+        "blueprintId": "/providers/Microsoft.Management/managementGroups/KrishanTestSubscription1/providers/Microsoft.Blueprint/blueprints/Mytestbp",
+       
+        "resourceGroups": {
+                       "ResourceGroup": {
+                        "name": "krisrrrg",
+                        "location": "eastus2"
+            }
+        },
+        "parameters": {
+         
+           
+        }
+    },
+ 
+    "identity": {
+        "type": "systemAssigned"
+    },
+    "location": "westus"
+}
