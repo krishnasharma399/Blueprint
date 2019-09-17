@@ -1,10 +1,10 @@
 {
     "properties": {
-        "blueprintId": "/subscriptions/5f8f158e-b4f5-4c0b-a5da-878f16441c7a/providers/Microsoft.Blueprint/blueprints/MyBlueprint",
+        "blueprintId": "/subscriptions/5f8f158e-b4f5-4c0b-a5da-878f16441c7a/providers/Microsoft.Blueprint/blueprints/Mytestbp/versions/13",
        
         "resourceGroups": {
-                       "NoNSGVM": {
-                        "name": "krisrg",
+                       "ResourceGroup": {
+                        "name": "krisrrrg",
                         "location": "eastus2"
             }
         },
