@@ -1,6 +1,6 @@
 {
     "properties": {
-        "blueprintId": "/subscriptions/5f8f158e-b4f5-4c0b-a5da-878f16441c7a/providers/Microsoft.Blueprint/blueprints/Mytestbp/versions/13",
+        "blueprintId": "/subscriptions/5f8f158e-b4f5-4c0b-a5da-878f16441c7a/providers/Microsoft.Blueprint/blueprints/Mytestbp",
        
         "resourceGroups": {
                        "ResourceGroup": {
