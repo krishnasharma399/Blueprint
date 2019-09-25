@@ -1,0 +1,9 @@
+{
+  "kind": "policyAssignment",
+  "properties": {
+    "displayName": "NamingConvention-VM",
+    "dependsOn": [],
+    "policyDefinitionId": "/subscriptions/5f8f158e-b4f5-4c0b-a5da-878f16441c7a/providers/Microsoft.Authorization/policyDefinitions/allowed-role-definitions-def",
+    "parameters": {}
+  }
+}
